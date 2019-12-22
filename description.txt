@@ -1,0 +1,32 @@
+1. Adafruit Feather Huzzah - It is made by adafruit thus it has easily available instructions and support. 
+   It doesn't come with soldered header pins so you will need a soldering iron to solder them. It has li-po 
+   battery charger on the board itself, so it will come really handy in portable projects.
+2. NodeMCU ESP8266 - It is just the basic board with no extra features but it is open source and has excellent 
+   documentation so it will be very easy to get started.
+3. Sparkfun ESP8266 - It is like the huzzah with the addition of a power switch and an external antenna for 
+   a longer Wifi range.
+4. Wemos D1 Mini - It is the smallest of all the boards but this doesn't have any effect on the performance. 
+   It has nice documentation. If you want a longer range and the same form factor then you could buy the Wemos 
+   D1 Mini Pro which has a external antenna.
+   Finally, the one I would recommend is the NodeMCU ESP8266 because it has excellent documentation and how 
+   cheap it is. If you are building a portable project then I would recommend the sparkfun board because of the 
+   external antenna and the built-in li-po charger and sparkfun makes good quality products.
+   
+There are many different kinds of batteries to choose from, you have to select the right one for you.
+1. AA Battery Pack - They are the most common type of batteries and are very cheap. Each cell has a voltage of 1.5 
+   volts, we need at least 9 volts, so we would need to wire 6 - 8 cells in series to get 9 -12 volts.
+2. 9v Battery - This is also a very common type of battery and also cheap. It has a voltage of 9 volts but the max-
+   -imum current and capacity is pretty low, so it wouldn't last long and the motors will spin quite slow.
+3. Lead Acid Battery - It is also pretty common as it is used every car out there. It has a voltage of 12 volts, 
+   it has the perfect voltage for our needs. It's current capability is good and has a large capacity. The only part 
+   where it isn't good is the size and weight, it is big and heavy.
+4. Li-Ion (Lithium Ion) - It is the type of battery that is used in power banks. It comes in different sizes but 
+   the most popular is the 18650 cell. The maximum voltage is 4.2 volts and minimum is 3.7 volts. If you charge or 
+   discharge it more than those parameters then the battery would be damaged. A special type of charger is needed 
+   to charge these batteries. It has a high current capability and a large capacity and is also very small, only a 
+   little bigger than AA battery. But it doesn't come as pre-built battery packs, so you would have to buy indivi-
+   -dual cells and create a battery pack.
+5. Li-Po (Lithium Polymer) - It is mostly used in quadcopters and drones and in hobby rc vehicles. The maximum and 
+   minimum voltage is same as an Li-Ion battery. A special charger is also needed to charge them. It has the highest 
+   current capability out of all these and also has a large capacity and is also small. But is dangerous, if you 
+   don't handle them properly they could catch on fire.
